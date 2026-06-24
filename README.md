@@ -6,6 +6,14 @@ It uses the experimental `codex app-server` protocol to create visible Codex Des
 
 ## Install
 
+Ask Codex:
+
+```text
+Install this skill: https://github.com/ImSakushi/codex-multi-thread
+```
+
+Or install manually:
+
 ```bash
 git clone https://github.com/ImSakushi/codex-multi-thread.git ~/.codex/skills/codex-multi-thread
 ```
