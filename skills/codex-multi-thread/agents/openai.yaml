@@ -1,0 +1,4 @@
+interface:
+  display_name: "Codex Multi Thread"
+  short_description: "Create Codex app threads from scripts"
+  default_prompt: "Use $codex-multi-thread to create a Codex thread from the CLI with an initial prompt."
