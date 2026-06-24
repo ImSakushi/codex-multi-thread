@@ -1,8 +1,8 @@
 # Codex Multi Thread
 
-A small Codex skill that replicates Codex App thread spawning from Codex CLI.
+A small Codex skill that replicates Codex App thread spawning for Codex CLI and Codex Mobile workflows.
 
-It uses the experimental `codex app-server` protocol to create visible Codex Desktop/App threads from a terminal script, and can optionally send the first prompt to the new thread.
+It uses the experimental `codex app-server` protocol to spawn visible Codex Desktop/App threads from a terminal script, and can optionally send the first prompt to the new thread.
 
 ## Install
 

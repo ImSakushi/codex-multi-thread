@@ -1,6 +1,6 @@
 ---
 name: codex-multi-thread
-description: Create Codex Desktop/App threads from a shell script or CLI by using the experimental `codex app-server` protocol. Use when the user asks to automate creating new Codex threads, reproduce the Codex App `create_thread` or thread spawning behavior from the terminal, send an initial prompt to a new thread, or build a CLI wrapper around Codex thread creation.
+description: Replicate Codex App thread spawning behavior for Codex CLI and Codex Mobile workflows by using the experimental `codex app-server` protocol. Use when the user asks to automate spawning new Codex Desktop/App threads, reproduce Codex App `create_thread` behavior outside the app, send an initial prompt to a spawned thread, or build a CLI/mobile-friendly wrapper around Codex thread creation.
 ---
 
 # Codex Multi Thread
