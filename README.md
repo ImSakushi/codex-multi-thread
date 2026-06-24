@@ -1,0 +1,31 @@
+# Codex Multi Thread
+
+A small Codex skill that replicates Codex App thread spawning from Codex CLI.
+
+It uses the experimental `codex app-server` protocol to create visible Codex Desktop/App threads from a terminal script, and can optionally send the first prompt to the new thread.
+
+## Install
+
+```bash
+git clone https://github.com/ImSakushi/codex-multi-thread.git ~/.codex/skills/codex-multi-thread
+```
+
+## Use
+
+Create a thread and send an initial prompt:
+
+```bash
+node ~/.codex/skills/codex-multi-thread/scripts/create-thread.mjs \
+  --cwd /absolute/project/path \
+  "hello world!"
+```
+
+Create only the thread, without sending a model turn:
+
+```bash
+node ~/.codex/skills/codex-multi-thread/scripts/create-thread.mjs \
+  --cwd /absolute/project/path \
+  --no-turn
+```
+
+You can also ask Codex to use `$codex-multi-thread`.
